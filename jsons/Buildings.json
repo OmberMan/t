@@ -35,7 +35,7 @@
 		"replaces": "Pioneer Depot",
 		"uniqueTo": "Blackwarden",
 		"gold": 2,
-                "cost": 0,
+                "cost": 10,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "gold": 5 },
@@ -110,7 +110,8 @@
 		"name": "Casino",
 		"uniqueTo": "Deadrock Clan",
 		"specialistSlots": { "Merchant": 1, "Influencer": 1 },
-		"happiness": 1,
+		"happiness": 2,
+                "food": -1,
 		"uniques": [
 			"[+1 Gold] per [3] population [in this city]",
 			"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <after discovering [Stable Fission Power]>",
@@ -129,6 +130,7 @@
 		"replaces": "Proxy Office",
 		"uniqueTo": "Crimson Legion",
 		"happiness": 1,
+                "culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
