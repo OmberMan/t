@@ -10,7 +10,7 @@
 	{
 		"name": "Advanced Guerilla Tactics",
 		"uniques": [
-			"[+20]% Strength <when fighting in [Hill] tiles>", "Ignores zones of control", "[relativeAmount]% to Flank Attack bonuses"		],
+			"[+20]% Strength <when fighting in [Hill] tiles>", "Ignores zones of control", "[+100]% to Flank Attack bonuses"		],
 		"row": 109,
         "column": 0
 	},
