@@ -18,12 +18,12 @@
 		"replaces": "Light Buggy",
 		"uniqueTo": "New Star",
 		"range": 1,
-		"movement": 5,
-		"strength": 15,
-		"rangedStrength": 16,
+		"movement": 4,
+		"strength": 9,
+                "rangedStrength": 10,
 		"cost": 75,
 		"requiredTech": "Portable Power Sources",
-		"upgradesTo": "Anti-Air Buggy",
+		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Lasers",
 		"uniques": [
 			"Can move after attacking",
@@ -53,9 +53,9 @@
 		"uniqueTo": "New Star",
 		"replaces": "Frontier Militia",
 		"movement": 2,
-		"strength": 10,
-		"cost": 25,
-		"upgradesTo": "Colony Rifleman",
+		"strength": 7,
+		"cost": 35,
+		//"upgradesTo": "Colony Rifleman",
 		"hurryCostModifier": 20,
 		//"obsoleteTech": "Rifling",
 		"uniques": [
@@ -87,10 +87,10 @@
 		"uniqueTo": "Children of Rust",
 		"replaces": "Frontier Militia",
 		"movement": 2,
-		"strength": 10,
-		"cost": 40,
+		"strength": 6,
+		"cost": 30,
 		//"obsoleteTech": "Rifling",
-		"upgradesTo": "Colony Rifleman",
+		//"upgradesTo": "Colony Rifleman",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
 			"Never appears as a Barbarian unit"
@@ -117,14 +117,13 @@
 		"strength": 15,
 		"interceptRange": 1,
 		"cost": 75,
-		"upgradesTo": "Exoframe Soldier",
 		"requiredTech": "Info Networks",
 		"uniques": [
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Hazard Pay", "Drone Recon"],
-		"hurryCostModifier": -25,
+		"hurryCostModifier": -50,
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -146,13 +145,16 @@
 		"strength": 5,
 		"cost": 25,
 		//"obsoleteTech": "Rifling",
-		"upgradesTo": "Combat Rover",
+		//"upgradesTo": "Combat Rover",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Rover",
-			"[+1] Sight",
+			"[+2] Sight",
+               		"Drone",
+			"No defensive terrain bonus",
+                        "All tiles cost 1 movement",
 			"Can build [Land] improvements on tiles",
-			"[+50]% Strength <when defending>",
+			//"[+50]% Strength <when defending>",
 			"May upgrade to [Combat Rover] through ruins-like effects",
 			"Never appears as a Barbarian unit"
 		],
@@ -176,10 +178,10 @@
 		"replaces": "Colony Rifleman",
 		"range": 1,
 		"movement": 2,
-		"strength": 16,
+		"strength": 15,
 		"rangedStrength": 16,
 		//"interceptRange": 1,
-		"upgradesTo": "Exoframe Soldier",
+		//"upgradesTo": "Exoframe Soldier",
 		"requiredTech": "Next-Gen Armaments",
 		"uniques": [
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
@@ -205,10 +207,10 @@
 		"replaces": "Colony Marksman",
 		"range": 1,
 		"movement": 2,
-		"strength": 14,
+		"strength": 15,
 		"rangedStrength": 14,
 		//"interceptRange": 1,
-		"cost": 75,
+		"cost": 95,
 		"hurryCostModifier": 20,
 		"upgradesTo": "Exoframe Sniper",
 		"requiredTech": "Military Ballistics",
@@ -266,17 +268,21 @@
 		"uniqueTo": "Enclavers",
 		"replaces": "Frontier Militia",
 		"movement": 2,
-		"strength": 9,
+		"strength": 8,
+                "rangeStrength": 10,
+                "range": 2,
 		//"interceptRange": 1,
 		"cost": 40,
 		//"obsoleteTech": "Replaceable Parts",
-		"upgradesTo": "Colony Rifleman",
+		//"upgradesTo": "Colony Rifleman",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
 			"Never appears as a Barbarian unit"
+                        "Ignores terrain cost"
+                        "Invisible to non-adjacent units"
 		],
-		//"promotions": ["Forage"],
+		"promotions": ["Forage"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
@@ -300,7 +306,8 @@
 			"Can construct [Narcoponics]",
 			"Great Person - [Gold]",
 			"Unbuildable",
-			"Uncapturable"
+			"Uncapturable",
+                        "May withdraw before melee ([75]%)"
 		],
 		"movement": 2,
 		"civilopediaText": [
@@ -320,14 +327,15 @@
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Exoframe Soldier",
 		"movement": 2,
-		"strength": 24,
+		"strength": 26,
 		"cost": 125,
 		"requiredTech": "Exoskeletons",
 		//"obsoleteTech": "Combined Arms",
 		"upgradesTo": "Drop Trooper",
 		"uniques": [
 			"May upgrade to [Drop Trooper] through ruins-like effects",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+                        "Damage is ignored when determining unit Strength"
 		],
 		"promotions": ["Legionnaire Training"],
 		"attackSound": "metalhit",
@@ -348,8 +356,8 @@
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Light Buggy",
 		"movement": 4,
-		"strength": 13,
-		"cost": 75,
+		"strength": 14,
+		"cost": 65,
 		"requiredTech": "Portable Power Sources",
 		"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Combined Arms",
@@ -412,7 +420,7 @@
 		"uniqueTo": "New Afrika",
 		"replaces": "Frontier Militia",
 		"movement": 2,
-		"strength": 10,
+		"strength": 9,
 		//"interceptRange": 1,
 		"cost": 35,
 		//"requiredTech": "Frontier Armaments",
@@ -420,7 +428,8 @@
 		"upgradesTo": "Colony Rifleman",
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit",
+                        "[+20]% Strength decreasing with distance from the capital"
 		],
 		"hurryCostModifier": 20,
 		"promotions": ["Raider"],
