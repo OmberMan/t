@@ -10,8 +10,7 @@
 	{
 		"name": "Advanced Guerilla Tactics",
 		"uniques": [
-			"[+20]% Strength <when fighting in [Hill] tiles>"
-		],
+			"[+20]% Strength <when fighting in [Hill] tiles>", "Ignores zones of control", "[relativeAmount]% to Flank Attack bonuses"		],
 		"row": 109,
         "column": 0
 	},
@@ -19,7 +18,7 @@
 		"name": "Clansman",
 		"uniques": [
 			"Clansman",
-			"Earn [10]% of [military] opponent's [Cost] as [Gold] for kills",
+			"Earn [20]% of [military] opponent's [Cost] as [Gold] for kills",
 			"[-50]% XP gained from combat",
 			"[Great General] is earned [250]% faster"
 		],
@@ -52,7 +51,7 @@
 		"uniques": [
 			"Heals [25] damage if it kills a unit",
 			"[25]% XP gained from combat",
-			"Earn [100]% of killed [Military] unit's [Strength] as [Science]"
+			"Earn [100]% of killed [Military] unit's [Strength] as [Science]", "Ignores terrain cost"
 		],
 		"row": 112,
         "column": 0
@@ -60,8 +59,8 @@
 	{
 		"name": "Hazard Pay",
 		"uniques": [
-			"Earn [-10]% of [military] opponent's [Strength] as [Gold] for kills",
-			"Can move immediately once bought"
+			"Earn [-20]% of [military] opponent's [Strength] as [Gold] for kills",
+			"Can move immediately once bought", "May enter foreign tiles without open borders"
 		],
 		"row": 113,
         "column": 0
@@ -70,7 +69,7 @@
 		"name": "Colonial Ranger Training",
 		"uniques": [
 			"[+20]% Strength <when fighting in [Friendly Land] tiles>",
-			"[+15]% Strength bonus for [Military] units within [2] tiles",
+			"[+10]% Strength bonus for [Military] units within [2] tiles",
 			"[50]% XP gained from combat",
 			"Can construct [Fort]",
 			"Uncapturable"
@@ -90,7 +89,7 @@
 	{
 		"name": "Legionnaire Training",
 		"uniques": [
-			"[+50]% Strength <vs cities>",
+			"Damage is ignored when determining unit Strength",
 			"[+50]% Strength <vs [Infantry] units>",
 			"[+50]% Strength <vs [Stealth Infantry] units>",
 			"[+50]% Strength <vs [Sniper] units>"
@@ -102,7 +101,7 @@
 		"name": "War Buggy Crew",
 		"uniques": [
 			"[+20]% Strength <vs [Infantry] units>",
-			"[+20]% Strength <vs [Stealth Infantry] units>",
+			"[+20]% Strength <when attacking>",
 			"[+20]% Strength <vs [Sniper] units>",
 			"Damage is ignored when determining unit Strength <when below [25] HP>"
 		],
