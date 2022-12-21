@@ -282,7 +282,7 @@
                         "Ignores terrain cost"
                         "Invisible to non-adjacent units"
 		],
-		"promotions": ["Survivalist I"],
+		"promotions": ["Survivalist I", "Advanced Guerilla Tactics"],
 		"attackSound": "shot",
 		"civilopediaText": [
 			{
