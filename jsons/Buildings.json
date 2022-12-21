@@ -35,6 +35,7 @@
 		"replaces": "Pioneer Depot",
 		"uniqueTo": "Blackwarden",
 		"gold": 2,
+                "cost": 0,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
 		"percentStatBonus": { "gold": 5 },
