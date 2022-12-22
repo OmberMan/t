@@ -37,7 +37,7 @@
 		//"style": "",
 		"uniqueName": "Determination",
 		"uniques": [
-			"[+50]% Great Person generation [in all cities]",
+			"[-33]% Unhappiness from [Population] [in all non-occupied cities]",
 			"[+15]% Strength <for [{Wounded} {Ranged}] units> <when attacking>",
 			"[+15]% Strength <for [{Wounded} {Melee}] units>  <when defending>",
 			"[+1] Sight <for [{Wounded} {Scout}] units> ",
@@ -101,7 +101,10 @@
 			"Starts with [Engineering]",
 			"Starts with [Electronics]",
 			*/
-			"[-2 Happiness] [in all cities]"
+			"[-2 Happiness] [in all cities]",
+                        "[+33]% Unhappiness from [Population] [in all non-occupied cities]",
+                        "[+1 Science] per [3] population [in all cities]"
+                         [
 		],
 		"cities": [
 			"Halimax",
@@ -156,6 +159,9 @@
 		"[Armored] units gain the [Urban Warfare] promotion",
 		"[Infantry] units gain the [Urban Warfare] promotion",
 		"[Stealth Infantry] units gain the [Urban Warfare] promotion",
+                "[+1 Production] from [Bonus Resource] tiles [in all cities]",
+"[+4 Science, +4 Production, +2 Faith] from [City Ruin] tiles [in all cities]",
+                "
 		//"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"Starts with [Xenobiology]"
 	],
@@ -209,9 +215,11 @@
 		//"style": "Corporate",
 		"uniqueName": "Limited Liability",
 		"uniques": [
+                        "[+1 Gold] from every specialist [in all cities] <while the empire is happy>",
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
 			"City-State Influence recovers at twice the normal rate",
 			"Starts with [Consolidation] adopted",
+                        "Allied City-States provide [Gold] equal to [15]% of what they produce for themselves",
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
 			//"Starts with [Electronics]",
@@ -269,7 +277,7 @@
 		"uniqueName": "Creative Leadership",
 		"uniques": [
 			"Receive free [Great Scientist] when you discover [Computing]",
-			"[+33]% Great Person generation [in all cities]",
+			"[+100]% Great Person generation [in all cities]",
 			//"Starts with [Writing]",
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
