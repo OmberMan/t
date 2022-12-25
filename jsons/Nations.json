@@ -101,10 +101,10 @@
 			"Starts with [Engineering]",
 			"Starts with [Electronics]",
 			*/
-			"[-2 Happiness] [in all cities]",
+			"[-1 Happiness] [in all cities]",
                         "[+33]% Unhappiness from [Population] [in all non-occupied cities]",
-                        "[+1 Science] per [3] population [in all cities]"
-                         [
+                        "[+2 Science] per [5] population [in all cities]",
+                         "[-1 Happiness] per [5] population [in all cities]", "Nullifies [happiness] [in all non-occupied cities]  <when between [20] and [-10] Happiness>", "Nullifies [faith] [in all non-occupied cities]"
 		],
 		"cities": [
 			"Halimax",
@@ -136,7 +136,7 @@
 	"leaderName": "Scarlett",
 	"adjective": ["Scavenger"],
 	"startBias": ["Forest"],
-	"preferredVictoryType": "Cultural",
+	"preferredVictoryType": "Neutral",
 	"favoredReligion": "Ghost Dance",
 
 	"startIntroPart1": "Hau, Scarlett, leader of the Children of Rust. Your people have survived the decivilization of old Earth, scavenging the great old ruins for survival. Yet, your people endured the old Earth, kept traditions old and new alive, and prospered despite the dangers. So when you managed to salvage an unfinished colony ship, your people readily followed you to the far reaches of the stars.",
@@ -160,7 +160,7 @@
 		"[Infantry] units gain the [Urban Warfare] promotion",
 		"[Stealth Infantry] units gain the [Urban Warfare] promotion",
                 "[+1 Production] from [Bonus Resource] tiles [in all cities]",
-"[+4 Science, +4 Production, +2 Faith] from [City Ruin] tiles [in all cities]",
+"[+4 Science, +4 Production, +2 Faith] from [City Ruin] tiles [in all cities]", "[+1 Production, +1 Faith] for every known Natural Wonder",
                 "
 		//"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"Starts with [Xenobiology]"
@@ -222,7 +222,7 @@
                         "Allied City-States provide [Gold] equal to [15]% of what they produce for themselves",
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
-			//"Starts with [Electronics]",
+			//"Starts with [Electronics]", "[+1 Gold] from every [Merchant]",
 			//"[-2 Science] [in all cities] <before discovering [Computing]>"
 		],
 		"cities": [
@@ -278,6 +278,7 @@
 		"uniques": [
 			"Receive free [Great Scientist] when you discover [Computing]",
 			"[+100]% Great Person generation [in all cities]",
+                        "[+25]% Unhappiness from [Population] [in all non-occupied cities]", "[-50]% Unhappiness from [Specialists] [in all non-occupied cities]", "[+100]% Unhappiness from [Unemployed] [in all cities]",
 			//"Starts with [Writing]",
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
