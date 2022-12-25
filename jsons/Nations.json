@@ -104,7 +104,7 @@
 			"[-1 Happiness] [in all cities]",
                         
                         "[+2 Science] per [5] population [in all cities]",
-                         "[-1 Happiness] per [5] population [in all cities]", "Nullifies [Happiness] [in all non-occupied cities]  <when between [20] and [-10] Happiness>", "Nullifies [faith] [in all non-occupied cities]"
+                        "[-1 Happiness] per [5] population [in all cities]", "Nullifies [Happiness] [in all non-occupied cities]  <when between [20] and [-10] Happiness>", "Nullifies [Faith] [in all non-occupied cities]"
 		],
 		"cities": [
 			"Halimax",
@@ -406,7 +406,7 @@
                         "[-33]% growth [in all cities]",
 			//"Cannot build [Low Tech] units",
 			"May not generate great prophet equivalents naturally",
-                        "New [Infantry] units start with [25] Experience [incapital]",
+                        "New [Infantry] units start with [25] Experience [in capital]",
                         "Population loss from nuclear attacks [-50]% [in all cities]", "[+1 Science] from every [Engineer]",
                         
 			//"Starts with [Writing]",
