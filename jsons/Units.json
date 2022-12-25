@@ -325,19 +325,17 @@
 		"name": "Exoframe Legionnaire",
 		"unitType": "Infantry",
 		"uniqueTo": "Crimson Legion",
-		"replaces": "Exoframe Soldier",
+		"replaces": "Frontier Militia",
 		"movement": 2,
-		"strength": 26,
-		"cost": 125,
-		"requiredTech": "Exoskeletons",
+		"strength": 6,
+		"cost": 50,
 		//"obsoleteTech": "Combined Arms",
 		//"upgradesTo": "Drop Trooper",
 		"uniques": [
-			"May upgrade to [Drop Trooper] through ruins-like effects",
-			"Never appears as a Barbarian unit",
-                        "Damage is ignored when determining unit Strength"
-		],
-		"promotions": ["Legionnaire Training"],
+	        "May upgrade to [Drop Trooper] through ruins-like effects",
+                "Never appears as a Barbarian unit",
+                "[+33]% XP gained from combat <when below [50] HP>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+100]% Strength <after discovering [Exoskeletons]>"],		
+                "promotions": ["Legionnaire Training"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
 			{
@@ -368,7 +366,7 @@
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Raider","War Buggy Crew"],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 5,
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -401,7 +399,7 @@
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
 		],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 10,
 		"attackSound": "shipguns",
 		"civilopediaText": [
 			{
@@ -431,7 +429,7 @@
 			"Never appears as a Barbarian unit",
                         "[+20]% Strength decreasing with distance from the capital"
 		],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 15,
 		"promotions": ["Raider"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
