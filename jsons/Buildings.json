@@ -35,10 +35,9 @@
 		"replaces": "Pioneer Depot",
 		"uniqueTo": "Blackwarden",
 		"gold": 2,
-                "cost": 10,
 		"specialistSlots": { "Merchant": 1 },
 		"hurryCostModifier": 25,
-		"percentStatBonus": { "gold": 5 },
+		"percentStatBonus": { "gold": 15 },
 		"uniques": [
 			"Prefab"
 			"[+33]% Production when constructing [Worker] units [in this city]",
@@ -58,6 +57,7 @@
 		"production": 1,
 		"science": 1,
 		"happiness": 1,
+                "specialistSlots": { "Scientist": 1 },
 		"uniques": [
 			"All newly-trained [{Military} {Land}] units [in this city] receive the [Drone Recon] promotion",
 			//"[Infantry] units gain the [Drone Recon] promotion",
@@ -116,7 +116,7 @@
 			"[+1 Gold] per [3] population [in this city]",
 			"[+1 Happiness, +1 Culture, +1 Gold] [in this city] <after discovering [Stable Fission Power]>",
 			"[+1 Gold] [in this city] <with [Stimulants]>",
-			"[+1 Gold] [in this city] <with [Narcotics]>"
+			"[+2 Gold] [in this city] <with [Narcotics]>"
 		],
 		"requiredTech": "Hab-Domes",
 		"civilopediaText": [
@@ -130,13 +130,13 @@
 		"replaces": "Proxy Office",
 		"uniqueTo": "Crimson Legion",
 		"happiness": 1,
-                "culture": 1,
+                "culture": 2,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Melee] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Happiness, +1 Culture] [in this city] <with [Stimulants]>",
+			"[+1 Faith, +1 Happiness] [in this city] <with [Stimulants]>",
 			//"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"
 		],
@@ -157,7 +157,7 @@
 		"requiredTech": "Habitation",
 		"uniques": [
 			"Hidden when religion is disabled",
-			"[+1 Faith] from [Promethine] tiles [in this city]"
+			"[+1 Faith] from [Promethine] tiles [in this city]", "[-1 Food, +3 Faith] per [5] population [in all cities]"
 		],
 		"civilopediaText": [
 			{
