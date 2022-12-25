@@ -592,6 +592,7 @@
 		"uniques": [
 			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [10]% chance>",
 			"[-33]% maintenance costs <for [Land] units>",
+                         "[+33]% Production when constructing [Land] units [in all cities]",
 			"Starts with [Frontier Armaments]",
 			"[-2 Science] [in all cities] <before discovering [Computing]>"
 		],
@@ -833,9 +834,9 @@
 		"adjective": ["Tellus"],
 		"cityStateType": "Cultural",
 
-		"declaringWar": "You leave us no choice. War it must be.",
+		"declaringWar": "Tell'um.",
 		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"defeated": "Well, that's us told.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [197, 55, 222],
 		"cities": ["Tellus"]
@@ -846,9 +847,9 @@
 		"adjective": ["Arroyoan"],
 		"cityStateType": "Agricultural",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Sic Semper Tyrannis.",
+		"attacked": "You were the chosen one!",
+		"defeated": "I was unworthy of my legacy.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [114, 222, 55],
 		"cities": ["Arroyo"]
@@ -945,9 +946,9 @@
 		"adjective": ["Deseret"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "We don't enjoy killing, but when done properly it is a chore, like any other.",
+		"attacked": "It's the Lord's job to judge sinners, but we will take up the task of sending them to judgment..",
+		"defeated": "God help us. God help you.",
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["Deseret City"]
@@ -957,9 +958,9 @@
 		"adjective": ["Fo Guang"],
 		"cityStateType": "Religious",
 
-		"declaringWar": "You leave us no choice. War it must be.",
-		"attacked": "Very well, this shall not be forgotten.",
-		"defeated": "We never fully trusted you from the start.",
+		"declaringWar": "Emperor Number 1!.",
+		"attacked": "Very violent, truly barbaric.",
+		"defeated": "中国第一！去他妈的操你!",
 		"outerColor": [50, 50, 50],
 		"innerColor": [55, 200, 222],
 		"cities": ["Fo Guang Shan"]
