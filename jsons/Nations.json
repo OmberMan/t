@@ -160,7 +160,7 @@
 		"[Infantry] units gain the [Urban Warfare] promotion",
 		"[Stealth Infantry] units gain the [Urban Warfare] promotion",
                 "[+1 Production] from [Bonus Resource] tiles [in all cities]",
-"[+4 Science, +4 Production, +2 Faith] from [City Ruin] tiles [in all cities]", "[+1 Production, +1 Faith] for every known Natural Wond
+"[+4 Science, +4 Production, +2 Faith] from [City Ruin] tiles [in all cities]", "[+1 Production, +1 Faith] for every known Natural Wonder", "[-1 Science] from every [Faith]",
 		//"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"Starts with [Xenobiology]"
 	],
