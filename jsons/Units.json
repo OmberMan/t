@@ -327,7 +327,7 @@
 		"uniqueTo": "Crimson Legion",
 		"replaces": "Frontier Militia",
 		"movement": 2,
-		"strength": 6,
+		"strength": 7,
 		"cost": 50,
 		//"obsoleteTech": "Combined Arms",
 		//"upgradesTo": "Drop Trooper",
@@ -363,7 +363,7 @@
 			"[-66]% Strength <vs cities>",
 			"Can move after attacking",
 			"No defensive terrain bonus",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit", "[+33]% Strength <when below [20] HP>"
 		],
 		"promotions": ["Raider","War Buggy Crew"],
 		"hurryCostModifier": 5,
