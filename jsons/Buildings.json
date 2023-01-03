@@ -1,4 +1,4 @@
-/* list of unique buildings per nation in DeCiv:
+A/* list of unique buildings per nation in DeCiv:
 # Enclavers: Deep Larder, Guerilla Camp
 # Deadrock Clan: Organ Farm, Casino, Information Market, Trade College, Clubhouse, Content Mill, Salvage Exchange
 # Cult of Ignis: Temple, Blood Bank, Plantation, Sanctum, College of Mystics, Initiate School, Arena, Processing Center, Chop Shop, Fuel Depot, Altar of Ignis
@@ -41,8 +41,8 @@
 		"uniques": [
 			"Prefab"
 			"[+33]% Production when constructing [Worker] units [in this city]",
-			"[+1 Happiness, +1 Culture] [in this city] <after discovering [Stable Fission Power]>",
-			"[+1 Food, +3 Production] [in this city] <after discovering [Offworld Industries]>"
+			"[+1 Happiness, +1 Gold] [in this city] <after discovering [Stable Fission Power]>",
+			"[+1 Gold, +3 Production] [in this city] <after discovering [Offworld Industries]>"
 		],
 		"requiredTech": "Pioneer Administration",
 		"civilopediaText": [
@@ -54,10 +54,10 @@
 	{
 		"name": "Survey Center",
 		"uniqueTo": "Atlas",
-		"production": 1,
-		"science": 1,
-		"happiness": 1,
-                "specialistSlots": { "Scientist": 1 },
+                "culture": 1,
+                "science": 2,
+		"happiness": -1,
+                "specialistSlots": { "Scientist": 2 },
 		"uniques": [
 			"All newly-trained [{Military} {Land}] units [in this city] receive the [Drone Recon] promotion",
 			//"[Infantry] units gain the [Drone Recon] promotion",
@@ -130,13 +130,13 @@
 		"replaces": "Proxy Office",
 		"uniqueTo": "Crimson Legion",
 		"happiness": 1,
-                "culture": 2,
+                "culture": 1,
 		"maintenance": 1,
 		"hurryCostModifier": 25,
 		"uniques": [
 			"New [Melee] units start with [15] Experience [in this city]",
 			"Remove extra unhappiness from annexed cities",
-			"[+1 Faith, +1 Happiness] [in this city] <with [Stimulants]>",
+			"[+1 Faith] [in this city] <with [Stimulants]>",
 			//"Only available <in cities without a [Prison Camp]>",
 			"Destroyed when the city is captured"
 		],
@@ -157,7 +157,7 @@
 		"requiredTech": "Habitation",
 		"uniques": [
 			"Hidden when religion is disabled",
-			"[+1 Faith] from [Promethine] tiles [in this city]", "[-1 Food, +3 Faith] per [5] population [in all cities]"
+			"[+2 Faith] from [Promethine] tiles [in this city]", "[-1 Food, +3 Faith] per [5] population [in annexed cities]"
 		],
 		"civilopediaText": [
 			{
@@ -187,10 +187,11 @@
 		"name": "Mosque",
 		"uniqueTo": "New Afrika",
 		"replaces": "Monument",
-		"culture": 2,
+		"culture": 1,
 		"faith": 2,
-		"cost": 40,
-		"hurryCostModifier": 40,
+                "greatPersonPoints": { "Great Visionary": 1 },
+		"cost": 60,
+		"hurryCostModifier": 20,
 		"civilopediaText": [
 			{
 				"text": "In each and every one, an orrery to pinpoint the location of Earth - for worship and rememberance."
