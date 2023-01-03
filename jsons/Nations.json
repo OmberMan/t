@@ -92,7 +92,7 @@
 		"uniqueName": "Adaptive Systems",
 		"uniques": [
 		    //"Can Mix Unique Strategic Resources to Generate a Great Person", //change this mechanic so it uses Hexlock Chemicals (resource) + another resource to build GU-making buildings (hide in civilopedia)
-			"[-99]% Great Person generation [in all cities]"
+			"[-99]% Great Person generation [in all cities]", "[+10]% Production towards any buildings that already exist in the Capital",
 		    /*
 			"[Purge Robot] units gain the [Promotion Nullifier] promotion",
 			"Starts with [Writing]",
