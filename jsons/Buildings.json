@@ -1,4 +1,4 @@
-A/* list of unique buildings per nation in DeCiv:
+/* list of unique buildings per nation in DeCiv:
 # Enclavers: Deep Larder, Guerilla Camp
 # Deadrock Clan: Organ Farm, Casino, Information Market, Trade College, Clubhouse, Content Mill, Salvage Exchange
 # Cult of Ignis: Temple, Blood Bank, Plantation, Sanctum, College of Mystics, Initiate School, Arena, Processing Center, Chop Shop, Fuel Depot, Altar of Ignis
@@ -19,9 +19,9 @@ A/* list of unique buildings per nation in DeCiv:
 		"requiredTech": "Engineering",
 		"uniques": [
 			"[+1 Production] from [Mine] tiles [in this city]",
-			"[+1 Production] from [Forest] tiles [in this city]",
-			"[+1 Production] from [Jungle] tiles [in this city]",
-			"[+1 Production] from [Artifacts] tiles [in this city]",
+			"[+1 Science] from [City Ruins] tiles [in this city]",
+			"[+1 Food] from [Mountain] tiles [in this city]",
+			"[+1 Production, +1 Science] from [Artifacts] tiles [in this city]",
 			"[+1 Production] [in this city] <with [Titanium]>"
 		],
 		"civilopediaText": [
