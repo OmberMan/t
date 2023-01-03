@@ -114,7 +114,7 @@
 		"uniqueTo": "Blackwarden",
 		"replaces": "Colony Rifleman",
 		"movement": 2,
-		"strength": 15,
+		"strength": 13,
 		"interceptRange": 1,
 		"cost": 75,
 		"requiredTech": "Info Networks",
@@ -142,7 +142,7 @@
 		"uniqueTo": "Atlas",
 		"replaces": "Rover Explorer",
 		"movement": 2,
-		"strength": 5,
+		"strength": 6,
 		"cost": 25,
 		//"obsoleteTech": "Rifling",
 		//"upgradesTo": "Combat Rover",
@@ -205,22 +205,22 @@
 		"unitType": "Sniper",
 		"uniqueTo": "The Patriots",
 		"replaces": "Colony Marksman",
-		"range": 1,
+		"range": 2,
 		"movement": 2,
 		"strength": 17,
 		"rangedStrength": 16,
 		//"interceptRange": 1,
-		"cost": 95,
+		"cost": 125,
 		"hurryCostModifier": 20,
 		"upgradesTo": "Exoframe Sniper",
 		"requiredTech": "Military Ballistics",
 		"uniques": [
 			"Only available <if [Colonial Patrol Station] is constructed>",
 			"May upgrade to [Exoframe Sniper] through ruins-like effects",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit", "Invisible to non-adjacent units"
 		],
-		"promotions": ["Ignore terrain cost", "Amphibious", "Ambush I", "Gas Filter"],
-		"attackSound": "machinegun",
+		"promotions": ["Ignore terrain cost", "Amphibious", "Ambush I", "Gas Filter", "Drill I"],
+		"attackSound": "machinegun", 
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Spec Ops",
@@ -240,16 +240,16 @@
 		"movement": 2,
 		"strength": 18,
 		//"interceptRange": 1,
-		"cost": 75,
+		"cost": 95,
 		//"upgradesTo": "Exoframe Soldier",
 		"requiredTech": "Military Ballistics",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Only available <if [Colonial Patrol Station] is constructed>",
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
-			"Never appears as a Barbarian unit"
+			"Never appears as a Barbarian unit", "May Paradrop up to [4] tiles from inside friendly territory"
 		],
-		"promotions": ["Amphibious", "Gas Filter"],
+		"promotions": ["Amphibious", "Gas Filter", "Blitz"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
