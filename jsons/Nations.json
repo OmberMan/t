@@ -217,11 +217,11 @@
                         "[+2 Gold, -1 Production] per [4] population [in all non-occupied cities] <while the empire is happy>",
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
 			"City-State Influence recovers at twice the normal rate",
-			"Starts with [Consolidation] adopted",
-                        "Allied City-States provide [Gold] equal to [15]% of what they produce for themselves",
+			"Starts with [Consolidation] adopted",  "Unhappiness from number of Cities doubled",
+                        "Allied City-States provide [Gold] equal to [20]% of what they produce for themselves",
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
-			//"Starts with [Electronics]", "[+1 Gold] from every [Merchant]",
+			//"Starts with [Electronics]", "[+1 Gold] from every [Merchant]", "[+15]% Culture cost of adopting new Policies", "[+15]% Production towards any buildings that already exist in the Capital",
 			//"[-2 Science] [in all cities] <before discovering [Computing]>"
 		],
 		"cities": [
@@ -256,7 +256,7 @@
 		"name": "Atlas",
 		"leaderName": "John Kruger",
 		"adjective": ["Corporate"],
-		// "startBias": ["Avoid [Desert]"],
+		// "startBias": ["Avoid [Desert]", "Coast"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Objectivism",
 
@@ -271,13 +271,13 @@
 		"tradeRequest": "Free trade is the only fair trade.",
 
 		"outerColor": [0, 255, 255],
-		"innerColor": [45, 60, 120],
+		"innerColor": [135, 60, 120],
 		//"style": "Corporate",
 		"uniqueName": "Creative Leadership",
 		"uniques": [
 			"Receive free [Great Scientist] when you discover [Computing]",
 			"[+100]% Great Person generation [in all cities]",
-                        "[+25]% Unhappiness from [Population] [in all non-occupied cities]", "[-50]% Unhappiness from [Specialists] [in all non-occupied cities]", "[+100]% Unhappiness from [Unemployed] [in all cities]",
+                        "[+25]% Unhappiness from [Population] [in all non-occupied cities]", "[-50]% Unhappiness from [Specialists] [in all non-occupied cities]", "[+100]% Unhappiness from [Unemployed] [in all cities]", "[+100] whenever a Great Person is expended",
 			//"Starts with [Writing]",
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
@@ -590,10 +590,9 @@
 		//"style": "Legion",
 		"uniqueName": "One Banner",
 		"uniques": [
-			"When conquering an encampment, earn [25] Gold and recruit a Barbarian unit <with [10]% chance>",
-			"[-33]% maintenance costs <for [Land] units>",
-                      "[+50]% XP gained from combat <for [Infantry] units>", "[-33]% Unhappiness from [Population] [in all cities] <with a garrison>",
-                         "[+33]% Production when constructing [Land] units [in all cities]",
+			"[-33]% maintenance costs <for [Land] units>", "Cities are razed [amount] times as fast",
+                        "[+25]% XP gained from combat <for [Infantry] units>", "[-33]% Unhappiness from [Population] [in all cities] <with a garrison>",
+                        "[+20]% Production when constructing [Military] units [in all cities]",
 			"Starts with [Frontier Armaments]",
 			"[-2 Science] [in all cities] <before discovering [Computing]>"
 		],
