@@ -19,7 +19,7 @@
 		"requiredTech": "Engineering",
 		"uniques": [
 			"[+1 Production] from [Mine] tiles [in this city]",
-			"[+1 Science] from [City Ruins] tiles [in this city]",
+			"[+1 Science] from [Fallout] tiles [in this city]",
 			"[+1 Food] from [Mountain] tiles [in this city]",
 			"[+1 Production, +1 Science] from [Artifacts] tiles [in this city]",
 			"[+1 Production] [in this city] <with [Titanium]>"
