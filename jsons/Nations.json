@@ -141,11 +141,11 @@
 	"uniqueName": "Rubble Runners",
 	"uniques": [
 		//"[Civilian] units gain the [Urban Warfare] promotion",
-		"[Armored] units gain the [Urban Warfare] promotion",
+		"[Scout] units gain the [Urban Warfare] promotion",
 		"[Infantry] units gain the [Urban Warfare] promotion",
 		"[Stealth Infantry] units gain the [Urban Warfare] promotion",
-                "[+1 Production] from [Bonus resource] tiles [in all cities]",
-"[+4 Science, +4 Production, +2 Faith] from [City ruins] tiles [in all cities]", "[+1 Production, +1 Faith] for every known Natural Wonder", "[-1 Science] from every [Faith]",
+                "[+1 Production] from [Bonus resource] tiles [in all cities]", "[+1 Faith] from [Strategic resource] tiles [in all cities]", "[+1 Science] from [Luxury resource] tiles [in all cities]",
+"[+3 Science, +3 Production, +3 Faith] from [City ruins] tiles [in all cities]", "[+1 Faith] for every known Natural Wonder", "[-1 Science] from every [Gold]", "[-2 Science] [in all cities]",
 		//"All units move through Forest and Jungle Tiles in friendly territory as if they have roads. These tiles can be used to establish City Connections upon researching the Wheel.",
 		"Starts with [Xenobiology]"
 	],
@@ -645,7 +645,7 @@
 			"[+2 Culture, +2 Faith] from every [Derrick]",
 			"[-1 Science] [in all cities] <before discovering [Computing]>",
 "May buy [Armored] units with [Faith] for [1] times their normal Production cost",
-"No movement cost to pillage <for [Armored] units>", "[+1] Movement <for [Armored] units>", "Upon capturing a city, receive [2] times its [Science] production as [Faith] immediately", "[-2 Science] [in all cities]],
+"No movement cost to pillage <for [Armored] units>", "[+1] Movement <for [Armored] units>", "Upon capturing a city, receive [2] times its [Science] production as [Faith] immediately", "[-2 Science] [in all cities]"],
 		"cities": [
 			"Gastown",
 			"Blood Farm",
