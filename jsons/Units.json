@@ -119,10 +119,10 @@
 		"cost": 75,
 		"requiredTech": "Info Networks",
 		"uniques": [
-			"May upgrade to [Exoframe Soldier] through ruins-like effects",
+			"May upgrade to [Exoframe Soldier] through ruins-like effects", "[+33]% Strength <when attacking> <with [15]% chance>", "Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Hazard Pay", "Drone Recon"],
+		"promotions": ["Mercenary Pay", "Hazard Pay"],
 		"hurryCostModifier": -50,
 		"attackSound": "machinegun",
 		"civilopediaText": [
@@ -142,8 +142,8 @@
 		"uniqueTo": "Atlas",
 		"replaces": "Rover Explorer",
 		"movement": 2,
-		"strength": 6,
-		"cost": 25,
+		"strength": 5,
+		"cost": 35,
 		//"obsoleteTech": "Rifling",
 		//"upgradesTo": "Combat Rover",
 		"hurryCostModifier": 20,
@@ -155,7 +155,7 @@
                         "All tiles cost 1 movement",
 			"Can build [Land] improvements on tiles",
 			//"[+50]% Strength <when defending>",
-			"May upgrade to [Combat Rover] through ruins-like effects",
+			"May upgrade to [Combat Rover] through ruins-like effects", "Can see invisible [All] units", "[+10]% Strength bonus for [Military] units within [1] tiles",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Medic I"],
@@ -207,19 +207,19 @@
 		"replaces": "Colony Marksman",
 		"range": 2,
 		"movement": 2,
-		"strength": 17,
+		"strength": 16,
 		"rangedStrength": 16,
 		//"interceptRange": 1,
 		"cost": 125,
 		"hurryCostModifier": 20,
-		"upgradesTo": "Exoframe Sniper",
+		//"upgradesTo": "Exoframe Sniper",
 		"requiredTech": "Military Ballistics",
 		"uniques": [
 			"Only available <if [Colonial Patrol Station] is constructed>",
 			"May upgrade to [Exoframe Sniper] through ruins-like effects",
-			"Never appears as a Barbarian unit", "Invisible to non-adjacent units"
+			"Never appears as a Barbarian unit", "May Paradrop up to [6] tiles from inside friendly territory"
 		],
-		"promotions": ["Ignore terrain cost", "Amphibious", "Ambush I", "Gas Filter", "Drill I"],
+		"promotions": ["Ignore terrain cost", "Amphibious", "Ambush I", "Gas Filter", "Spook"],
 		"attackSound": "machinegun", 
 		"civilopediaText": [
 			{
@@ -249,7 +249,7 @@
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
 			"Never appears as a Barbarian unit", "May Paradrop up to [4] tiles from inside friendly territory"
 		],
-		"promotions": ["Amphibious", "Gas Filter", "Blitz"],
+		"promotions": ["Amphibious", "Gas Filter", "Blitz", "Professional Discipline"],
 		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
@@ -297,17 +297,17 @@
 	},
 	{
 		"name": "Narco Smuggler",
-		"uniqueTo": "Deadrock Clan",
+		"uniqueTo": "Hexlock",
 		"replaces": "Great Merchant",
 		"unitType": "Civilian",
 		"uniques": [
 			"Invisible to non-adjacent units",
-			"Can undertake a trade mission with City-State, giving a large sum of gold and [40] Influence",
+			"Can undertake a trade mission with City-State, giving a large sum of gold and [0] Influence",
 			"Can construct [Narcoponics]",
 			"Great Person - [Gold]",
 			"Unbuildable",
 			"Uncapturable",
-                        "May withdraw before melee ([75]%)"
+                        "May withdraw before melee ([65]%)", "May enter foreign tiles without open borders"
 		],
 		"movement": 2,
 		"civilopediaText": [
@@ -334,7 +334,7 @@
 		"uniques": [
 	        "May upgrade to [Drop Trooper] through ruins-like effects",
                 "Never appears as a Barbarian unit",
-                "[+33]% XP gained from combat <when below [50] HP>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+100]% Strength <after discovering [Exoskeletons]>"],		
+                "Heals [20] damage if it kills a unit <with [50]% chance>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+100]% Strength <after discovering [Exoskeletons]>"],		
                 "promotions": ["Legionnaire Training"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
@@ -452,7 +452,7 @@
 			"Can hurry technology research",
 			"Can construct [Chemical Refinery Complex]",
 			"Great Person - [Science]",
-			"Unbuildable",
+			"Unbuildable", "[-10]% Strength for enemy [Land] units in adjacent [Land] tiles"
 			"Uncapturable"
 		],
 		"movement": 2,
