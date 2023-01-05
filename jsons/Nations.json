@@ -59,7 +59,7 @@
 		"adjective": ["Hexlock"],
 		"startBias": ["Mycelium"],
 		"preferredVictoryType": "Domination",
-		"favoredReligion": "Voidism",
+		"favoredReligion": "Idolatry",
 
 		"startIntroPart1": "Greetings, Aura of Hexlock Corporation. Before the Cataclysm of Old Earth, your company was among the forefront in science - but your progress was hindered by the ethics comittee. Freed from that shackle post-Cataclysm, you kept experimenting and iterating through the problems of the post-Cataclysm world, which culminated in the development of your own colony ship. A new experiment await in the depths of space.",
 		"startIntroPart2": "Aura, your mind craves intellect. Will you successfully conduct a new social experiment in this brand new planet? Can you build a colony that stands the test of time?",
@@ -573,9 +573,9 @@
 		//"style": "Legion",
 		"uniqueName": "One Banner",
 		"uniques": [
-			"[+50]% XP gained from combat <for [Military] units> <when below [50] HP>", "[+33]% Strength <for [Melee] units> <when attacking> <when below [50] HP>", "[-33]% Unhappiness from [Population] [in all cities with a garrison] <when at war>",
+			"[+50]% XP gained from combat <for [Military] units> <when below [50] HP>", "[+25]% Strength <for [Melee] units> <when attacking> <when below [50] HP>", "[-33]% Unhappiness from [Population] [in all cities with a garrison] <when at war>",
                         "[+50]% Production when constructing [Military] units [in all cities] <when at war>",
-			"Starts with [Frontier Armaments]", "[-50]% [Science] from every [Science]", "[Great Tactician] is earned [33]% faster",
+			"Starts with [Frontier Armaments]", "[-50]% [Science] from every [Science]",
 			"[-1 Science] [in all cities] <before discovering [Computing]>", "[-1 Science] [in all cities]"
 		],
 		"cities": [
