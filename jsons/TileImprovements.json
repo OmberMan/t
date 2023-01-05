@@ -46,7 +46,7 @@
 			"Flood plains",
 			"Mycelium"
 		],
-		"uniques": ["Urban Improvement", "Provides [2] [Hexlock Chemicals]"],
+		"uniques": ["Urban Improvement", "Provides [2] [Hexlock Chemicals]", "Adjacent enemy units ending their turn take [2] damage"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Chemical Refinery Complex",
