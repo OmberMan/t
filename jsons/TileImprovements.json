@@ -5,7 +5,7 @@
 [
 	{
 		"name": "Narcoponics",
-		"culture": 2,
+		"gold": 2,
 		"terrainsCanBeBuiltOn": [
 			"Plains",
 			"Grassland",
@@ -18,7 +18,7 @@
 			"Flood plains",
 			"Mycelium"
 		],
-		"uniques": ["Great Improvement", "Provides [2] [Narcotics]"],
+		"uniques": ["Great Improvement", "Provides [2] [Narcotics]", "Costs [1] [Food] per turn when in your territory", "Pillaging this improvement yields approximately [+15 Gold]"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Narcoponics",
@@ -32,7 +32,7 @@
 	},
 	{
 		"name": "Chemical Refinery Complex",
-		"science": 2,
+		"science": 3,
 		"production": 1,
 		"terrainsCanBeBuiltOn": [
 			"Plains",
@@ -46,7 +46,7 @@
 			"Flood plains",
 			"Mycelium"
 		],
-		"uniques": ["Urban Improvement", "Provides [2] [Hexlock Chemicals]", "Adjacent enemy units ending their turn take [2] damage"],
+		"uniques": ["Urban Improvement", "Provides [2] [Hexlock Chemicals]", "Provides a random bonus when entered", "Adjacent enemy units ending their turn take [2] damage"],
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Tiles/Chemical Refinery Complex",
