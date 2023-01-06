@@ -16,12 +16,12 @@
 		"name": "Combat Ambulance",
 		"unitType": "Armored",
 		"replaces": "Light Buggy",
-		"uniqueTo": "New Star",
+		"uniqueTo": "Soma Biotech",
 		"range": 1,
 		"movement": 4,
 		"strength": 9,
-                "rangedStrength": 10,
-		"cost": 75,
+                "rangedStrength": 7,
+		"cost": 85,
 		"requiredTech": "Portable Power Sources",
 		//"upgradesTo": "Anti-Air Buggy",
 		//"obsoleteTech": "Lasers",
@@ -29,8 +29,8 @@
 			"Can move after attacking",
 			"No defensive terrain bonus",
 			"[-33]% Strength <vs [Armor] units>",
-			"[-50]% Strength <vs cities>",
-			"May withdraw before melee ([75]%)",
+			"[-50]% Strength <vs cities> <when attacking>",
+			"May withdraw before melee ([70]%)",
 			"Never appears as a Barbarian unit"
 		],
 		"hurryCostModifier": 20,
@@ -119,10 +119,10 @@
 		"cost": 75,
 		"requiredTech": "Info Networks",
 		"uniques": [
-			"May upgrade to [Exoframe Soldier] through ruins-like effects", "[+33]% Strength <when attacking> <with [15]% chance>", "Ignores Zone of Control",
+			"May upgrade to [Exoframe Soldier] through ruins-like effects", "[+20]% Strength <when defending> <with [80]% chance>", "Ignores Zone of Control",
 			"Never appears as a Barbarian unit"
 		],
-		"promotions": ["Mercenary Pay", "Hazard Pay"],
+		"promotions": ["Mercenary Pay", "Hazard Pay", "Urban Warfare"],
 		"hurryCostModifier": -50,
 		"attackSound": "machinegun",
 		"civilopediaText": [
@@ -150,12 +150,12 @@
 		"uniques": [
 			"Rover",
 			"[+2] Sight",
-               		"Drone",
+            "Drone",
 			"No defensive terrain bonus",
-                        "All tiles cost 1 movement",
+            "All tiles cost 1 movement",
 			"Can build [Land] improvements on tiles",
 			//"[+50]% Strength <when defending>",
-			"May upgrade to [Combat Rover] through ruins-like effects", "Can see invisible [All] units", "[+10]% Strength bonus for [Military] units within [1] tiles",
+			"May upgrade to [Combat Rover] through ruins-like effects", "Can see invisible [All] units", "[+5]% Strength bonus for [Military] units within [1] tiles",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Medic I"],
@@ -207,7 +207,7 @@
 		"replaces": "Colony Marksman",
 		"range": 2,
 		"movement": 2,
-		"strength": 16,
+		"strength": 15,
 		"rangedStrength": 16,
 		//"interceptRange": 1,
 		"cost": 125,
@@ -219,7 +219,7 @@
 			"May upgrade to [Exoframe Sniper] through ruins-like effects",
 			"Never appears as a Barbarian unit", "May Paradrop up to [6] tiles from inside friendly territory"
 		],
-		"promotions": ["Ignore terrain cost", "Amphibious", "Ambush I", "Gas Filter", "Spook"],
+		"promotions": ["Amphibious", "Ambush I", "Gas Filter", "Spook"],
 		"attackSound": "machinegun", 
 		"civilopediaText": [
 			{
@@ -240,14 +240,14 @@
 		"movement": 2,
 		"strength": 18,
 		//"interceptRange": 1,
-		"cost": 95,
+		"cost": 105,
 		//"upgradesTo": "Exoframe Soldier",
 		"requiredTech": "Military Ballistics",
 		"hurryCostModifier": 20,
 		"uniques": [
 			"Only available <if [Colonial Patrol Station] is constructed>",
 			"May upgrade to [Exoframe Soldier] through ruins-like effects",
-			"Never appears as a Barbarian unit", "May Paradrop up to [4] tiles from inside friendly territory"
+			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Amphibious", "Gas Filter", "Blitz", "Professional Discipline"],
 		"attackSound": "machinegun",
@@ -334,7 +334,7 @@
 		"uniques": [
 	        "May upgrade to [Drop Trooper] through ruins-like effects",
                 "Never appears as a Barbarian unit",
-                "Heals [20] damage if it kills a unit <with [50]% chance>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+100]% Strength <after discovering [Exoskeletons]>"],		
+                "Heals [20] damage if it kills a unit <with [50]% chance>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+67]% Strength <after discovering [Next-Gen Armaments]>", "[+100]% Strength <after discovering [Exoskeletons]>", "Can build [Fort] improvements on tiles"],		
                 "promotions": ["Legionnaire Training"],
 		"attackSound": "metalhit",
 		"civilopediaText": [
