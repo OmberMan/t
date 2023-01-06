@@ -16,7 +16,7 @@
 		"name": "Combat Ambulance",
 		"unitType": "Armored",
 		"replaces": "Light Buggy",
-		"uniqueTo": "Soma Biotech",
+		"uniqueTo": "Somatek Biomedical",
 		"range": 1,
 		"movement": 4,
 		"strength": 9,
@@ -33,9 +33,9 @@
 			"May withdraw before melee ([70]%)",
 			"Never appears as a Barbarian unit"
 		],
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 40,
 		"promotions": ["Medic I","Medic II"],
-		"attackSound": "tankshot",
+		"attackSound": "machinegun",
 		"civilopediaText": [
 			{
 				"extraImage": "TileSets/FantasyHex/Units/Combat Ambulance",
