@@ -58,7 +58,7 @@
 	{
 		"name": "Hazard Pay",
 		"uniques": [
-			"Earn [-20]% of [military] opponent's [Strength] as [Gold] for kills",
+			"Earn [-25]% of [military] opponent's [Strength] as [Gold] for kills",
 			"Can move immediately once bought", "May enter foreign tiles without open borders"
 		],
 		"row": 113,
