@@ -71,8 +71,8 @@
 		"hateHello": "Quite an interesting person...",
 		"tradeRequest": "This Shipment was brought to you by Hexlock Technologies.",
 
-		"outerColor": [64, 8, 114],
-		"innerColor": [255, 40, 255],
+		"outerColor": [64, 4, 114],
+		"innerColor": [255, 55, 255],
 		"style": "Hexlock",
 		"uniqueName": "Adaptive Systems",
 		"uniques": [
@@ -201,8 +201,8 @@
 		"uniques": [
                         "[+2 Gold, -1 Production] per [4] population [in all cities connected to capital]",
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
-			"City-State Influence recovers at twice the normal rate",
-			"Starts with [Consolidation] adopted",  "Unhappiness from number of Cities doubled", "[-25]% Production when constructing [All] buildings [in all cities]", "[-33]% Production when constructing [Military] units [in all cities]", "[-50]% maintenance cost for buildings [in all cities]", "[Gold] cost of purchasing [Military] units [-66]%",
+			"Gain [30] Influence with a [Military] gift to a City-State",
+			"Starts with [Consolidation] adopted",  "Unhappiness from number of Cities doubled", "[-25]% Production when constructing [All] buildings [in all cities]", "[-25]% Production when constructing [Military] units [in all cities]", "[-25]% maintenance cost for buildings [in all cities]", "[Gold] cost of purchasing [Military] units [-25]%",
                         "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves", "[+1 Gold] from every [Merchant]"
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
@@ -256,7 +256,7 @@
 		"tradeRequest": "Free trade is the only fair trade.",
 
 		"outerColor": [0, 255, 255],
-		"innerColor": [135, 60, 120],
+		"innerColor": [135, 75, 125],
 		//"style": "Corporate",
 		"uniqueName": "Creative Leadership",
 		"uniques": [
@@ -381,7 +381,7 @@
 		"tradeRequest": "The Emergency Management Agency has prepared this aid package for your district.",
 
 		"outerColor": [40, 178, 0],
-		"innerColor": [100, 50, 30],
+		"innerColor": [110, 60, 35],
 		"style": "Military",
 		"uniqueName": "Military Secrets",
 		"uniques": [
@@ -635,7 +635,7 @@
 		"tradeRequest": "You may yet serve the Engine...",
 
 		"outerColor": [255, 150, 0],
-		"innerColor": [0, 0, 0],
+		"innerColor": [20, 10, 0],
 		//"style": "Ignis",
 		"uniqueName": "Road Warriors",
 		"uniques": [
