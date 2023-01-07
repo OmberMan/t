@@ -99,9 +99,9 @@
 	{
 		"name": "War Buggy Crew",
 		"uniques": [
-			"[+20]% Strength <vs [Infantry] units>",
+			"[+15]% Strength <vs [Infantry] units>",
 			"[+20]% Strength <when attacking>",
-			"[+20]% Strength <vs [Sniper] units>",
+			"[+15]% Strength <vs [Sniper] units>", "Earn [15]% of the damage done to [All] units as [Faith]",
 			"Damage is ignored when determining unit Strength <when below [25] HP>"
 		],
 		"row": 117,
