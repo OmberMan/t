@@ -153,13 +153,14 @@
 		"name": "Altar of Ignis",
 		"uniqueTo": "Cult of Ignis",
 		"replaces": "Memorial",
-		"faith": 1,
-		"cost": 40,
+		"faith": 2,
+                "food": -1
+		"cost": 50,
 		"greatPersonPoints": { "Great Visionary": 1 },
 		"requiredTech": "Habitation",
 		"uniques": [
 			"Hidden when religion is disabled",
-			"[+2 Faith] from [Promethine] tiles [in this city]", "[-1 Food, +3 Faith] per [5] population [in annexed cities]"
+			"[+1 Faith, +1 Happiness] from [Promethine] tiles [in this city]", "[+2 Faith] from [Fallout] tiles [in this city]", "[-1 Food, +3 Faith] per [5] population [in annexed cities]", "[+10]% Production when constructing [Production] buildings [in this city]"
 		],
 		"civilopediaText": [
 			{
