@@ -119,7 +119,7 @@
 		"cost": 75,
 		"requiredTech": "Info Networks",
 		"uniques": [
-			"May upgrade to [Exoframe Soldier] through ruins-like effects", "[+15]% Strength <when defending>", "[+15]% Strength when stacked with [Civilian]", "Can move immediately once bought", "May enter foreign tiles without open borders",
+			"May upgrade to [Exoframe Soldier] through ruins-like effects", "[+15]% Strength <when defending>", "[+15]% Strength when stacked with [Civilian]",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Hazard Pay", "Urban Warfare"],
@@ -209,16 +209,16 @@
 		"range": 2,
 		"movement": 2,
 		"strength": 15,
-		"rangedStrength": 16,
+		"rangedStrength": 15,
 		//"interceptRange": 1,
-		"cost": 125,
+		"cost": 115,
 		"hurryCostModifier": 20,
 		//"upgradesTo": "Exoframe Sniper",
 		"requiredTech": "Military Ballistics",
 		"uniques": [
 			"Only available <if [Colonial Patrol Station] is constructed>",
 			"May upgrade to [Exoframe Sniper] through ruins-like effects",
-			"Never appears as a Barbarian unit", "May Paradrop up to [6] tiles from inside friendly territory"
+			"Never appears as a Barbarian unit", "May Paradrop up to [4] tiles from inside friendly territory"
 		],
 		"promotions": ["Amphibious", "Ambush I", "Gas Filter", "Spook"],
 		"attackSound": "machinegun", 
@@ -241,7 +241,7 @@
 		"movement": 2,
 		"strength": 18,
 		//"interceptRange": 1,
-		"cost": 105,
+		"cost": 115,
 		//"upgradesTo": "Exoframe Soldier",
 		"requiredTech": "Military Ballistics",
 		"hurryCostModifier": 20,
