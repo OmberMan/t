@@ -388,7 +388,7 @@
 		"movement": 5,
 		"strength": 20,
 		"cost": 115,
-                "promotions": ["Boarding Party"],
+                "promotions": ["Boarding Party I"],
 		"requiredTech": "Synthetic Materials",
 		//"obsoleteTech": "Steam Power",
 		"uniques": [
