@@ -119,7 +119,7 @@
 		"cost": 75,
 		"requiredTech": "Info Networks",
 		"uniques": [
-			"May upgrade to [Exoframe Soldier] through ruins-like effects", "[+20]% Strength <when defending> <with [80]% chance>", "Ignores Zone of Control",
+			"May upgrade to [Exoframe Soldier] through ruins-like effects", "[+15]% Strength <when defending>", "[+15]% Strength when stacked with [Civilian]", "Can move immediately once bought", "May enter foreign tiles without open borders",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": ["Mercenary Pay", "Hazard Pay", "Urban Warfare"],
@@ -381,20 +381,19 @@
 	},
 	{
 		"name": "Privateer",
-		"uniqueTo": "The Mariners",
-		"replaces": "Corvette",
+		"uniqueTo": "North Sea Alliance",
+		"replaces": "Assault Hydrofoil",
 		"unitType": "Close Range Water",
 		"movement": 5,
-		"strength": 35,
-		"cost": 250,
-		"requiredTech": "Alloy Microstructures",
-		"requiredResource": "Promethine",
+		"strength": 20,
+		"cost": 110,
+		"requiredTech": "Synthetic Materials",
 		//"obsoleteTech": "Steam Power",
 		"uniques": [
-			"Double movement in [Coast]",
-			"May withdraw before melee ([66]%)",
-			"Consumes [1] [Promethine]",
-			"May capture killed [Water] units",
+			"May create improvements on water resources",
+			"[+20]% Strength <when fighting in [Ocean] tiles>",
+			"[+40]% Strength <with [10]% chance>
+			"May capture killed [Water] units <with [33]% chance>",
 			"Earn [33]% of the damage done to [City] units as [Gold]",
 			"Only available <in cities with a [Floating Harbor]>",
 			"Never appears as a Barbarian unit"
