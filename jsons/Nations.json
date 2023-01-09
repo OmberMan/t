@@ -201,7 +201,7 @@
 		"uniques": [
                         "[+2 Gold, -1 Production] per [4] population [in all cities connected to capital]",
 			"[+10]% Strength <for [All] units> <when fighting in [Foreign Land] tiles> <while the empire is happy>",
-			"Gain [30] Influence with a [Military] gift to a City-State",
+			"Gain [20] Influence with a [Military] gift to a City-State",
 			"Starts with [Consolidation] adopted",  "Unhappiness from number of Cities doubled", "[-25]% Production when constructing [All] buildings [in all cities]", "[-25]% Production when constructing [Military] units [in all cities]", "[-25]% maintenance cost for buildings [in all cities]", "[Gold] cost of purchasing [Military] units [-25]%",
                         "Allied City-States provide [Gold] equal to [25]% of what they produce for themselves", "[+1 Gold] from every [Merchant]"
 			//"Starts with [Construction]",
@@ -387,11 +387,11 @@
 		"uniques": [
 			"Double quantity of [Ulframite] produced",
 			"[+300]% Production when constructing [Military] wonders [in all cities]",
-                        "[-50]% growth [in all cities]", "All newly-trained [Infantry] units [in capital] receive the [Morale] promotion",
+                        "[-33]% growth [in all cities]", "All newly-trained [Infantry] units [in capital] receive the [Morale] promotion",
 			//"Cannot build [Low Tech] units",
 			"[-33]% [Gold] from Trade Routes",
                         "New [Infantry] units start with [25] Experience [in capital]", "New [Military] units start with [15] Experience [in all non-occupied cities]", "[+50]% Production when constructing [Military] buildings [in all cities with a garrison]",
-                        "Population loss from nuclear attacks [-50]% [in all cities]", "[+1 Science] from every [Engineer]", "[-1 Gold] from every [Merchant]", "[-1 Culture] from every [Influencer]", "Land units may cross [Mountain] tiles after the first [Great Tactician] is earned", 
+                        "Population loss from nuclear attacks [-50]% [in all cities]", "[+1 Science] from every [Engineer]", "Land units may cross [Mountain] tiles after the first [Great General] is earned", 
 			//"Starts with [Writing]",
 			//"Starts with [Construction]",
 			//"Starts with [Machinery]",
@@ -797,7 +797,67 @@
 			"Byblos"
 		]
 	},
-	
+	{
+		"name": "Blue Streak Aerodynamics",
+		"leaderName": "Harvey Hawkes",
+		"adjective": ["Blue Streak"],
+		"startBias": ["Plains"],
+		"preferredVictoryType":"Scientific",
+
+		"startIntroPart1": "Howdy, Harvey Hawkes, CEO of Blue Streak Aerodynamics! Coming from a long line of aviators, your grandfather created Blue Streak Aerodynamics before the collapse. Your father then expanded the company from an airplane design bureau into the commercial flight business, and you furthered it by investing into the aerospace sector. You take their legacy in stride, keeping your company afloat even in the face of the collapse, and the subsequent climate catastrophe. But your engineers haven't been idle - they've successfully created and marketed the designs for a spaceship, a colony ship that could take people to new worlds. So it is no surprise when you took one of your own colony ships into the furthest skies, along with the engineers and families wealthy enough to afford a ticket.",
+		"startIntroPart2": "Harvey, your colonists dream of flying the skies on this new world. Will you reach once more into the sky? Can you build a colony that stands the test of time?",
+
+		"declaringWar": "You've done sullied my skies for too long. I'm gonna bomb you back to the stone age!",
+		"attacked": "Dag nabbit! I'll have you know, this means war!",
+		"defeated": "Doggone it, you've done clipped my wings.",
+		"introduction": "Howdy! I'm Harvey Hawkes, CEO of Blue Streak Aerodynamics. See you up above!",
+
+		"neutralHello": "What's the occasion, fella?",
+		"hateHello": "Well if it isn't the yellowbelly.",
+
+		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
+
+		"outerColor": [147, 218, 230],
+		"innerColor": [0, 19, 186],
+		"favoredReligion": "Cosmic Clergy",
+		"uniqueName": "Wild Blue Yonder",
+		"uniques": ["[+1] Range <for [Air] units>","Gain [35] Influence with a [Military] gift to a City-State","Military Units gifted from City-States start with [15] XP", "[+1 Gold] from every [Scientist]"],
+		"cities": [
+			"Eagle City",
+			"Amarillo 2",
+			"Airstrip One",
+			"New Alamo",
+			"Cloud District",
+			"Skyhaven",
+			"Testament",
+			"Abilene Station",
+			"Test or Consequences",
+			"Osprey Junction",
+			"Buzz Corral",
+			"Kittyhawk Ridge",
+			"Rango Town",
+			"Dodge City",
+			"Bandera Station",
+			"Butte Hill",
+			"Fairweather",
+			"Zephyr City",
+			"Dust Devil",
+			"Airstrip Two"
+		] ,
+		"spyNames": [
+			"Tex",
+			"Kid",
+			"Sam",
+			"Bob",
+			"Joe",
+			"Anne",
+			"Lily",
+			"Abby",
+			"Lola",
+			"Mary"
+		]
+		
+	},
 	// Outposts
 	// Cultural
 	{
