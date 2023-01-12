@@ -380,7 +380,7 @@
 		"hateHello": "A special water tax rate of 33% is in place for your municipality. You are additionally required to surrender all military weapons.",
 		"tradeRequest": "The Emergency Management Agency has prepared this aid package for your district.",
 
-		"outerColor": [40, 178, 0],
+		"outerColor": [35, 168, 5],
 		"innerColor": [110, 60, 35],
 		"style": "Military",
 		"uniqueName": "Military Secrets",
@@ -817,7 +817,7 @@
 
 		"tradeRequest": "Say, fella, what'd you think of this here trade deal?",
 
-		"outerColor": [147, 218, 230],
+		"outerColor": [142, 233, 240],
 		"innerColor": [0, 19, 186],
 		"favoredReligion": "Cosmic Clergy",
 		"uniqueName": "Wild Blue Yonder",
