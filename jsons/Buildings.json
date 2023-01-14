@@ -188,13 +188,13 @@
 	},
 	{
 		"name": "Mosque",
-		"uniqueTo": "New Afrika",
+		"uniqueTo": "Al Falah",
 		"replaces": "Monument",
-		"culture": 1,
+		"culture": 2,
 		"faith": 2,
                 "greatPersonPoints": { "Great Visionary": 1 },
 		"cost": 80,
-		"hurryCostModifier": 20,
+		"hurryCostModifier": 30,
 		"civilopediaText": [
 			{
 				"text": "In each and every one, an orrery to pinpoint the location of Earth - for worship and rememberance."
