@@ -77,7 +77,7 @@
 		"uniqueName": "Adaptive Systems",
 		"uniques": [
 		    //"Can Mix Unique Strategic Resources to Generate a Great Person", //change this mechanic so it uses Hexlock Chemicals (resource) + another resource to build GU-making buildings (hide in civilopedia)
-			"[-99]% Great Person generation [in all cities]", "[+10]% Production towards any buildings that already exist in the Capital",
+			"[-99]% Great Person generation [in all cities]",
 		    /*
 			"[Purge Robot] units gain the [Promotion Nullifier] promotion",
 			"Starts with [Writing]",
@@ -88,8 +88,8 @@
 			*/
 			"[-2 Happiness] [in all cities]",
                         "May buy [Military] units with [Science] for [6] times their normal Production cost",
-                        "[+2 Science] per [4] population [in all cities]",
-                        "[-1 Food] per [4] population [in all cities]", "Nullifies [Happiness] [in all non-occupied cities]  <when between [20] and [-10] Happiness>", "Nullifies [Faith] [in all non-occupied cities]", "[+2 Science] from every [Scientist]"
+                        "[+1 Science] per [4] population [in all cities]",
+                        "[-1 Food] per [4] population [in all cities]", "Nullifies [Happiness] [in all non-occupied cities]  <when between [20] and [-10] Happiness>", "Nullifies [Faith] [in all non-occupied cities]", "[+1 Science] from every [Scientist]"
 		],
 		"cities": [
 			"Halimax",
@@ -241,7 +241,7 @@
 		"name": "Atlas",
 		"leaderName": "John Kruger",
 		"adjective": ["Corporate"],
-		"startBias": ["Coast", "Ocean"],
+		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Objectivism",
 
@@ -261,7 +261,7 @@
 		"uniqueName": "Creative Leadership",
 		"uniques": [
 			"Receive free [Great Scientist] when you discover [Computing]",
-			"[+100]% Great Person generation [in all cities]",
+			"[+100]% Great Person generation [in all cities]", "[+1 Gold] from every specialist [in all non-occupied cities]",
                         "[+25]% Unhappiness from [Population] [in all non-occupied cities]", "[-50]% Unhappiness from [Specialists] [in all non-occupied cities]", "[+100]% Unhappiness from [Unemployed] [in all cities]", "[+100] [Culture] whenever a Great Person is expended", "[+100]% Food consumption by specialists [in all non-occupied cities]"
 			//"Starts with [Writing]",
 			//"Starts with [Construction]",
@@ -390,7 +390,7 @@
                         "[-33]% growth [in all cities]", "All newly-trained [Infantry] units [in capital] receive the [Morale] promotion",
 			//"Cannot build [Low Tech] units",
 			"[-33]% [Gold] from Trade Routes",
-                        "New [Infantry] units start with [25] Experience [in capital]", "New [Military] units start with [15] Experience [in all non-occupied cities]", "[+50]% Production when constructing [Military] buildings [in all cities with a garrison]",
+                        "New [Infantry] units start with [25] Experience [in capital]", "[+50]% Production when constructing [Military] buildings [in all cities with a garrison]",
                         "Population loss from nuclear attacks [-50]% [in all cities]", "[+1 Science] from every [Engineer]", "Land units may cross [Mountain] tiles after the first [Great General] is earned", 
 			//"Starts with [Writing]",
 			//"Starts with [Construction]",
@@ -575,7 +575,7 @@
 		"uniques": [
 			"[+50]% XP gained from combat <for [Military] units> <when below [50] HP>", "[+25]% Strength <for [Melee] units> <when attacking> <when below [50] HP>", "[-33]% Unhappiness from [Population] [in all cities with a garrison] <when at war>",
                         "[+50]% Production when constructing [Military] units [in all cities] <when at war>",
-			"Starts with [Frontier Armaments]", "[-33]% [Science] from every [Science]", "[Great General] is earned [+33]% faster",
+			"Starts with [Frontier Armaments]", "[-33]% [Science] [in all cities]", "[Great General] is earned [+33]% faster",
 			"[-1 Science] [in all cities] <before discovering [Computing]>", "[-1 Science] [in all cities]"
 		],
 		"cities": [
