@@ -193,7 +193,7 @@
 		"culture": 1,
 		"faith": 2,
                 "greatPersonPoints": { "Great Visionary": 1 },
-		"cost": 60,
+		"cost": 80,
 		"hurryCostModifier": 20,
 		"civilopediaText": [
 			{
