@@ -736,7 +736,7 @@
 		"leaderName": "Mutulu Makonnen",
 		"adjective": ["Afrikan"],
 		"startBias": ["Avoid [Tundra]"],
-		"preferredVictoryType": "Scientific",
+		"preferredVictoryType": "Neutral",
 		"favoredReligion": "Rastafari",
 
 		"startIntroPart1": "Dumela, Mutulu Makkonen of New Afrika. Your people had grown closer together after the decivilization of old Earth, becoming strong together against the rest of the savage world from the grassroots. Your civilization grew and prospered, even catching up with pre-collapse technological progress - and even managing to make your own colony ship to the stars.",
@@ -756,7 +756,7 @@
 		"uniques": [
 			"[+10]% Strength <within [2] tiles of a [City center]>", "[-33]% [Gold] [in all non-occupied cities]",
 			"Enemy [Land] units must spend [1] extra movement points when inside your territory", "[-50]% maintenance cost for buildings [in all non-occupied cities] <during We Love The King Day>",
-			//"Starts with [Secrets of the Past]", "[-1 Science, +1 Faith] from every [Scientist]", "[-2 Science] [in all cities]", "[+10]% Strength <when fighting units from a Civilization with more Cities than you>", "[Great Visionary] is earned [50]% faster"
+			"Starts with [Secrets of the Past]", "[-1 Science, +1 Faith] from every [Scientist]", "[-2 Science] [in all cities]", "[+10]% Strength <when fighting units from a Civilization with more Cities than you>", "[Great Visionary] is earned [50]% faster"
 		],
 		"cities": [
 			"Gao",
