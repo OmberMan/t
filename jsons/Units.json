@@ -418,7 +418,7 @@
 		"uniqueTo": "New Afrika",
 		"replaces": "Frontier Militia",
 		"movement": 2,
-		"strength": 9,
+		"strength": 8,
 		//"interceptRange": 1,
 		"cost": 35,
 		//"requiredTech": "Frontier Armaments",
@@ -427,7 +427,7 @@
 		"uniques": [
 			"May upgrade to [Colony Rifleman] through ruins-like effects",
 			"Never appears as a Barbarian unit",
-                        "[+20]% Strength decreasing with distance from the capital"
+                        "[+20]% Strength decreasing with distance from the capital", "[-50]% Maintenance"
 		],
 		"hurryCostModifier": 15,
 		"promotions": ["Raider"],
