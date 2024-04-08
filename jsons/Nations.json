@@ -6,6 +6,7 @@
 		"startBias": ["Plains"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Humanism",
+  "personality": "Nomadic Survivors",
 
 		"startIntroPart1": "Greetings upon you, Willand Keiji of New Star. Ever since the Cataclysm happened, you managed to hold on to a spark of hope, and stoked that spark in others' hearts. Despite the harshness of post-collapse old Earth, you and your people held on to your hopes and dreams tightly. When you recovered an intact colony ship, you decided that mankind's hopes and dreams should live on in the stars - and thus a New Star joins the others in space.",
 		"startIntroPart2": "Willand, your people look to you to keep that spark of hope aflame. Will you spread that hope in this new world? Can you build a colony that stands the test of time?",
@@ -60,6 +61,8 @@
 		"startBias": ["Mycelium"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Idolatry",
+"personality": "Unethical Researcher",
+
 
 		"startIntroPart1": "Greetings, Aura of Hexlock Corporation. Before the Cataclysm of Old Earth, your company was among the forefront in science - but your progress was hindered by the ethics comittee. Freed from that shackle post-Cataclysm, you kept experimenting and iterating through the problems of the post-Cataclysm world, which culminated in the development of your own colony ship. A new experiment await in the depths of space.",
 		"startIntroPart2": "Aura, your mind craves intellect. Will you successfully conduct a new social experiment in this brand new planet? Can you build a colony that stands the test of time?",
@@ -123,6 +126,7 @@
 	"startBias": ["Forest"],
 	"preferredVictoryType": "Neutral",
 	"favoredReligion": "Ghost Dance",
+ "personality": "Tribal Commune",
 
 	"startIntroPart1": "Hau, Scarlett, leader of the Children of Rust. Your people have survived the decivilization of old Earth, scavenging the great old ruins for survival. Yet, your people endured the old Earth, kept traditions old and new alive, and prospered despite the dangers. So when you managed to salvage an unfinished colony ship, your people readily followed you to the far reaches of the stars.",
 	"startIntroPart2": "Scarlett, your people dream of the open prairie and the lush forests of this new world. Will you lead them to prosper in this new world? Can you build a colony that stands the test of time?",
@@ -183,6 +187,7 @@
 		"adjective": ["Blackwarden"],
 		"preferredVictoryType": "Neutral",
 		"favoredReligion": "Capitalism",
+  "personality": "Mercenary Megacorp",
 
 		"startIntroPart1": "Greetings, VP Eric Price of Blackwarden. Since before the decivilization of old Earth, your company had thrived in the private security business. Your skilled operators helped you survive and prosper in the wastelands of old Earth, using whatever means necessary. When you finally built your own colony ship, it is to look for new prospects in the stars.",
 		"startIntroPart2": "VP Eric, this new world is in dire need of your private military services. Will you thrive upon the conflict in this new planet? Can you build a colony that stands the test of time?",
@@ -244,7 +249,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Objectivism",
-
+  "personality": "Andrew Ryan",
 		"startIntroPart1": "Greetings, CEO John Kruger of Atlas Corporation. Your vault had sheltered brilliant citizens, who managed to rebuild in the midst of the decivilization of old Earth. In time, your society developed in scientific leaps and bounds, up to the point that space colonization is feasible.",
 		"startIntroPart2": "CEO John, your scientists and engineers desire to study and learn from this new planet. Will you achieve great advances in science once more? Can you build a colony that stands the test of time?",
 		"declaringWar": "All that is required for the triumph of evil is for good men to do nothing.",
@@ -305,7 +310,7 @@
 		"startBias": ["Avoid [Desert]"],
 		"preferredVictoryType": "Diplomatic",
 		"favoredReligion": "Humanism",
-
+  "personality": "Diplomatic Union",
 		"startIntroPart1": "Greetings, President Hawkins of the Commonwealth. Your country rose from the wasteland as a democratic union of nation-states that arose from the ashes of a decivilized Earth. In time, your trading posts grew in number, and people flock to your land in promise of a better life. As the Commonwealth grew and prosper, your sights are now set on distant worlds.",
 		"startIntroPart2": "President Hawkins, your people seek prosperity in this new world. Will you send out your trade caravans once more? Can you build a colony that stands the test of time?",
 		"declaringWar": "We must take action now, before it is too late.",
@@ -369,7 +374,7 @@
 		"startBias": ["Hills"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Liberty",
-
+  "personality": "Resurgent Military",
 		"startIntroPart1": "Ten-hut, General Cameron of the Patriots! Your soldiers withstood the worst of the decivilization of old Earth from your mountain bunkers and underground bases, and managed to bring martial order to the surrounding lands. With your pre-collapse armory, you've secured enough technological progress and material to ensure the next step of the plan: to spread your brand of patriotism towards the stars.",
 		"startIntroPart2": "General Cameron, your soldiers are ready for action. Will you fly the flag of freedom and liberty high and proud once more? Can you build a colony that stands the test of time?",
 		"declaringWar": "You're either with us, or you're with the terrorists.",
@@ -429,6 +434,7 @@
 		"leaderName": "Timothy D. West",
 		"adjective": ["Survivalist"],
 		"startBias": ["Hill"],
+  "personality": "Isolationist Survivors",
 		"preferredVictoryType": "Scientific",
 		"favoredReligion": "Liberty",
 
@@ -501,6 +507,7 @@
 		"leaderName": "Boss Karl",
 		"adjective": ["Regulator"],
 		"startBias": ["Jungle"],
+  "personality": "Criminal Raiders",
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Capitalism",
 
@@ -557,6 +564,7 @@
 		"adjective": ["Legion"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Polytheism",
+  "personality": "Imperial Raiders",
 
 		"startIntroPart1": "Hail, Caesar, leader of the Crimson Legion! The Decivilization of old Earth has led you to unite several raider gangs under an older civilization's mantle: that of the Roman Empire. Under your military might, city-states fell under your wing, either subjugated and sold as slaves or surrendering as workforce. You've conquered enough land to turn your gaze skywards, towards the heavens, towards a new world.",
 		"startIntroPart2": "Caesar, your army is ready at your command. Will you lead them to conquest and victory in this new land? Can you build a colony that stands the test of time?",
@@ -623,6 +631,7 @@
 		"startBias": ["Desert"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Divine Engine",
+   "personality": "Zealous Raiders",
 
 		"startIntroPart1": "Praise Ignis, Ignitor Martina of the Cult of Ignis. Your beliefs of the Divine Engine had took root upon the decivilized Earth, galvanizing raiders and survivors to unite under your religion. Both progress and conquest had led you to see the possibility of finding the Divine Engine in the stars above, and the Divine Engine had seen fit to bless your cult with a colony ship.",
 		"startIntroPart2": "Ignitor Martina, your cultists clamor to spread the rumble of the Divine Engine upon this new world. Will you carry out the will of the Divine Engine? Can you build a colony that stands the test of time?",
@@ -688,6 +697,7 @@
 		"startBias": ["Coast"],
 		"preferredVictoryType": "Domination",
 		"favoredReligion": "Humanism",
+   "personality": ""personality": "Nomadic Raiders",
 
 		"startIntroPart1": "Ahoy, Deacon Hopper of the Mariners. Emerging from the surviving captains and sailors who survived the decivilization of old Earth, you've managed to thrive on the seas and made your way inland. With the riches of both land and sea at your command, you've dreamed of a ship to sail among the stars - a dream that you and your sailors have realized.",
 		"startIntroPart2": "Deacon Hopper, your sailors wish to roam the oceans once more. Will you conquer the seas of this new world? Can you build a colony that stands the test of time?",
@@ -738,6 +748,7 @@
 		"startBias": ["Avoid [Tundra]"],
 		"preferredVictoryType": "Neutral",
 		"favoredReligion": "Rastafari",
+  "personality": "Rising Power",
 
 		"startIntroPart1": "Dumela, Mutulu Makkonen of New Afrika. Your people had grown closer together after the decivilization of old Earth, becoming strong together against the rest of the savage world from the grassroots. Your civilization grew and prospered, even catching up with pre-collapse technological progress - and even managing to make your own colony ship to the stars.",
 		"startIntroPart2": "Mutulu, your people hope for a new horizon for them to prosper. Will you lead them to their promised land? Can you build a colony that stands the test of time?",
@@ -803,7 +814,7 @@
 		"adjective": ["Blue Streak"],
 		"startBias": ["Plains"],
 		"preferredVictoryType":"Scientific",
-
+  "personality": "Aeronautical Megacorp",
 		"startIntroPart1": "Howdy, Harvey Hawkes, CEO of Blue Streak Aerodynamics! Coming from a long line of aviators, your grandfather created Blue Streak Aerodynamics before the collapse. Your father then expanded the company from an airplane design bureau into the commercial flight business, and you furthered it by investing into the aerospace sector. You take their legacy in stride, keeping your company afloat even in the face of the collapse, and the subsequent climate catastrophe. But your engineers haven't been idle - they've successfully created and marketed the designs for a spaceship, a colony ship that could take people to new worlds. So it is no surprise when you took one of your own colony ships into the furthest skies, along with the engineers and families wealthy enough to afford a ticket.",
 		"startIntroPart2": "Harvey, your colonists dream of flying the skies on this new world. Will you reach once more into the sky? Can you build a colony that stands the test of time?",
 
